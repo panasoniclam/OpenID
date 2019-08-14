@@ -1,0 +1,33 @@
+{
+  "name": "openid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panasoniclam/OpenID.git"
+  },
+  "author": "lamnn8",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panasoniclam/OpenID/issues"
+  },
+  "homepage": "https://github.com/panasoniclam/OpenID#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
